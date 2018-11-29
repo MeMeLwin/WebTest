@@ -5,15 +5,17 @@
 }
 
 .topnav {
-    background-color: #2266AE;
-    overflow: hidden;
-    text-transform: uppercase;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  overflow: hidden;
+  text-transform: uppercase;
+
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -55,6 +57,11 @@
     text-align: left;
   }
 }
+
+.mobile{
+  background-image: linear-gradient(to bottom right, purple, pink);
+}
+
 
 .container .row .form {
   width: 250px;
