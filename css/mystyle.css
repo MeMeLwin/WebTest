@@ -1,9 +1,11 @@
+/* container */
 .container{
   width: 100%;
   overflow: hidden;
   margin: auto;
 }
 
+/* top navigation*/
 .topnav {
   opacity: 0.6;
   filter: alpha(opacity=60);
@@ -12,6 +14,7 @@
 
 }
 
+/* top navigation*/
 .topnav a {
     float: left;
     display: block;
@@ -22,20 +25,24 @@
     font-size: 17px;
 }
 
+/* top navigation*/
 .topnav a:hover {
     background-color: #CCD1D1;
     color: black;
 }
 
+/* top navigation*/
 .active {
     background-color: #CCD1D1;
     color: black;
 }
 
+/* top navigation*/
 .topnav .icon {
     display: none;
 }
 
+/* top navigation*/
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -44,6 +51,7 @@
   }
 }
 
+/* top navigation*/
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
@@ -51,6 +59,7 @@
     right: 0;
     top: 0;
   }
+  /* top navigation*/
   .topnav.responsive a {
     float: none;
     display: block;
@@ -58,30 +67,36 @@
   }
 }
 
+/*mobile view slide*/
 .mobile{
   background-image: linear-gradient(to bottom right, purple, pink);
 }
 
 
-.container .row .form {
-  width: 250px;
-}
-
-.container .row .form .button{
-  color: white;
-  background-color: #141961;
-  height: 40px;
-  width: 250px;
-}
 
 .container .button{
   text-align: right;
 }
-.container .box1 img{
+
+.container .box1  img{
 
   width: 730px;
   height:400px;
 
+}
+
+/* text over image*/
+.container .box1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* text over image*/
+.container .box1 .text1{
+  position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .container .box1 p{
@@ -91,6 +106,19 @@
 .container .box2 img{
   width: 570px;
   height:400px;
+}
+/* text over image*/
+.container .box2{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* text over image*/
+.container .box2 .text2{
+  position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .container .box2 p{
@@ -103,6 +131,20 @@
   height:400px;
 }
 
+/* text over image*/
+.container .box3{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* text over image*/
+.container .box3 .text3{
+  position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .container .box3 p{
   color:#9C9CA0;
 }
@@ -112,10 +154,37 @@
   height:400px;
 }
 
+/* text over image*/
+.container .box4{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* text over image*/
+.container .box4 .text4{
+  position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .container .box4 p{
   color:#9C9CA0;
 }
 
 #headquarter .container .header{
   text-align: left;
+}
+
+/*contact form*/
+.container .row .form {
+  width: 250px;
+}
+
+/*contact form*/
+.container .row .form .button{
+  color: white;
+  background-color: #141961;
+  height: 40px;
+  width: 250px;
 }
