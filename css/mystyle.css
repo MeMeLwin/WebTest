@@ -8,6 +8,7 @@
 
 .masthead{
   background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 479px) and (min-width: 0px)
