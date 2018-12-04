@@ -5,8 +5,9 @@
   margin: auto;
 }
 
-.masthead #home{
-  margin-left: 20px;
+
+.masthead .d-lg-none .d-xl-block{
+  background-image: url(../img/bg.png);
 }
 
 #jobs #icons{
@@ -44,7 +45,8 @@
 
 /*mobile view slide*/
 .mobile{
-  background-image: linear-gradient(to bottom right, #2FB7F3, #9376DC);
+  color: white;
+  background-image: linear-gradient(to bottom right, #2FB7F3, #769ADC, #9376DC);
 }
 
 #thalesBlog{
@@ -128,7 +130,7 @@
 
 .container .box4 img{
   width: 730px;
-  height:400px;
+  height: 400px;
 }
 
 /* text over image*/

@@ -152,6 +152,7 @@ section h2 {
   }
 }
 
+
 header.masthead {
   position: relative;
   width: 100%;
@@ -163,6 +164,7 @@ header.masthead {
   background: url("../img/bg.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
   background: url("../img/bg.png"), linear-gradient(to left, #7b4397, #dc2430);
 }
+
 
 header.masthead .header-content {
   padding-left: 0;
