@@ -217,6 +217,7 @@
  @media only screen and (min-width: 765px) {
  	.mobile {
  		display: none;
+    background-image: url("../img/mobile-bg.png");
  	}
  	.triangle1 {
         height: 0px;
