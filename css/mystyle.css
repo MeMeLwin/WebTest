@@ -93,6 +93,31 @@ background:none;
   text-align: right;
 }
 
+#job .carousel-desktop{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#job .carousel-desktop .button{
+  text-align: right;
+}
+
+#job .carousel-indicators ol {
+        width: 20%;
+    }
+
+#job .carousel-indicators li {
+  height: 10px !important;
+  border-radius: 0px !important;
+  width: 5%;
+  background-color: grey !important;
+  background-color: rgba(70,70,70,.25) !important;
+}
+
+#job .carousel-indicators .active {
+  background-color: #3498DB !important;
+}
+
 #training #psize{
   width: 75%;
   font-family: Ubuntu;
@@ -106,6 +131,14 @@ background:none;
 .mobile{
   color: white;
   background-image: linear-gradient(to bottom right, #2FB7F3, #769ADC, #9376DC);
+}
+
+.mobile h3{
+  padding-top: 15px;
+}
+
+#myCarousel{
+  padding-bottom: 40px;
 }
 
 #thalesBlog{
