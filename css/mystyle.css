@@ -5,6 +5,10 @@
   margin: auto;
 }
 
+body{
+
+  font-family: Ubuntu;
+}
 /*Mobile Menu Side Bar*/
 
 .masthead{
