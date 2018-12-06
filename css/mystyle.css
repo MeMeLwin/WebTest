@@ -90,6 +90,30 @@ background:none;
 
 }
 
+#job #icons{
+    float: left;
+    display: inline-flex;
+    color: #c9cdd5 ;
+    font-size: 12px;
+
+}
+
+#job #icons #icon1{
+    float: left;
+
+
+}
+
+#job #icons #icon2{
+    float: left;
+
+}
+
+#job #icons #icon3{
+    float: left;
+
+}
+
 #jobs .carousel-mobile .button{
   text-align: right;
 }
